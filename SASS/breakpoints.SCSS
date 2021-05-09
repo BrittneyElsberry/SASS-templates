@@ -1,0 +1,50 @@
+@include breakpoints(phone){
+
+    @media (min-width: $breakpoint-phone) and (max-width: $breakpoint-large-phone){
+
+       
+    }
+}
+
+
+
+
+    @include breakpoints(tablet){
+
+        @media(min-width: $breakpoint-large-phone) and (max-width: $breakpoint-tablet){
+
+
+    }
+    }
+
+
+    @include breakpoints(ipad){
+        @media(min-width: $breakpoint-tablet) and (max-width: $breakpoint-laptop){
+
+
+        }
+    }
+    
+
+
+    @include breakpoints(laptop){
+
+        @media(min-width: $breakpoint-tablet) and (max-width: $breakpoint-laptop){
+    
+        
+
+
+        }
+    }    
+
+
+
+
+@include breakpoints(desktop){
+
+    @media(min-width: $breakpoint-laptop) and (max-width: $breakpoint-desktop){
+
+
+
+    }
+}
